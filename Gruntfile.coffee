@@ -22,7 +22,7 @@ module.exports = (grunt) ->
                 options:
                     config: '.jscs.json'
                 files:
-                    src: [ 'lib/*.js', 'test/*.js' ]
+                    src: [ 'lib/po.js', 'test/*.js' ]
 
         watch:
             all:
