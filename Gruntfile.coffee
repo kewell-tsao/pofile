@@ -13,7 +13,7 @@ module.exports = (grunt) ->
             dist: ['dist']
 
         jshint:
-            all: [ 'lib/*.js', 'test/*.js' ]
+            all: [ 'lib/po.js', 'test/*.js' ]
             options:
                 jshintrc: '.jshintrc'
 
